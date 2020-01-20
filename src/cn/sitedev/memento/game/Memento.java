@@ -1,0 +1,30 @@
+package cn.sitedev.memento.game;
+
+public class Memento {
+	private int vit;
+	private int def;
+
+	// 构造器
+	public Memento(int vit, int def) {
+		super();
+		this.vit = vit;
+		this.def = def;
+	}
+
+	public int getVit() {
+		return vit;
+	}
+
+	public void setVit(int vit) {
+		this.vit = vit;
+	}
+
+	public int getDef() {
+		return def;
+	}
+
+	public void setDef(int def) {
+		this.def = def;
+	}
+
+}
